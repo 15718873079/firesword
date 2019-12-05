@@ -1,0 +1,20 @@
+spring:
+  redis:
+    database: 15
+    host: localhost
+    port: 6379
+    password:
+    timeout: 999
+  devtools:
+    restart:
+      enabled:  true
+
+logging:
+  file:
+    path: C:\temp
+
+novel:
+  file:
+    path: C:\temp\novel\
+  src:
+    url: http://www.quanwenyuedu.io/
